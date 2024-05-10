@@ -209,7 +209,7 @@ function drawArtistDistribution(year1=null,year2=null,artistName) {
         projection.scale(50 * zoomValue);
         svg.selectAll("path").attr("d", path);
     });
-    const rotationSpeed = 0.2; // Adjust the speed of rotation as needed
+    const rotationSpeed = 0.4; // Adjust the speed of rotation as needed
 
     function rotateMap() {
         // Get the current rotation
